@@ -13,6 +13,13 @@
 		5765365F297FCA300090F9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5765365D297FCA300090F9A4 /* Main.storyboard */; };
 		57653661297FCA320090F9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57653660297FCA320090F9A4 /* Assets.xcassets */; };
 		57653664297FCA320090F9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57653662297FCA320090F9A4 /* LaunchScreen.storyboard */; };
+		57653673297FD7F40090F9A4 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5765366C297FD7F40090F9A4 /* D.wav */; };
+		57653674297FD7F40090F9A4 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5765366D297FD7F40090F9A4 /* G.wav */; };
+		57653675297FD7F40090F9A4 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5765366E297FD7F40090F9A4 /* B.wav */; };
+		57653676297FD7F40090F9A4 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5765366F297FD7F40090F9A4 /* C.wav */; };
+		57653677297FD7F40090F9A4 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57653670297FD7F40090F9A4 /* A.wav */; };
+		57653678297FD7F40090F9A4 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57653671297FD7F40090F9A4 /* E.wav */; };
+		57653679297FD7F40090F9A4 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57653672297FD7F40090F9A4 /* F.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		57653660297FCA320090F9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57653663297FCA320090F9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57653665297FCA320090F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5765366C297FD7F40090F9A4 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		5765366D297FD7F40090F9A4 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		5765366E297FD7F40090F9A4 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		5765366F297FD7F40090F9A4 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		57653670297FD7F40090F9A4 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		57653671297FD7F40090F9A4 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		57653672297FD7F40090F9A4 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		57653656297FCA300090F9A4 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				5765366B297FD7D10090F9A4 /* Sounds */,
 				57653657297FCA300090F9A4 /* AppDelegate.swift */,
 				57653659297FCA300090F9A4 /* SceneDelegate.swift */,
 				5765365B297FCA300090F9A4 /* ViewController.swift */,
@@ -65,6 +80,20 @@
 				57653665297FCA320090F9A4 /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		5765366B297FD7D10090F9A4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				57653670297FD7F40090F9A4 /* A.wav */,
+				5765366E297FD7F40090F9A4 /* B.wav */,
+				5765366F297FD7F40090F9A4 /* C.wav */,
+				5765366C297FD7F40090F9A4 /* D.wav */,
+				57653671297FD7F40090F9A4 /* E.wav */,
+				57653672297FD7F40090F9A4 /* F.wav */,
+				5765366D297FD7F40090F9A4 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +155,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				57653664297FCA320090F9A4 /* LaunchScreen.storyboard in Resources */,
+				57653674297FD7F40090F9A4 /* G.wav in Resources */,
+				57653677297FD7F40090F9A4 /* A.wav in Resources */,
+				57653679297FD7F40090F9A4 /* F.wav in Resources */,
+				57653673297FD7F40090F9A4 /* D.wav in Resources */,
+				57653675297FD7F40090F9A4 /* B.wav in Resources */,
 				57653661297FCA320090F9A4 /* Assets.xcassets in Resources */,
+				57653678297FD7F40090F9A4 /* E.wav in Resources */,
 				5765365F297FCA300090F9A4 /* Main.storyboard in Resources */,
+				57653676297FD7F40090F9A4 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
